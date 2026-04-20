@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #d1d5dc;
+}
+
+.header {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.container {
+  margin: 4rem 0;
+
+  border-bottom: 0.1cap solid gray;
+
+  display: flex;
+  flex: row;
+  justify-content: center;
+}
+
+.card {
+  padding: 90px 300px;
+  border: 0.5cap;
+  border-color: transparent;
+  border-style: solid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  border-color: random;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  color: rgb(75, 85, 99);
+  width: 100%;
+  justify-content: center;
+  padding: 1.25rem;
+}
+
+footer p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+footer a {
+  margin-right: 0.25rem;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+footer-link:hover {
+  color: rgb(229, 229, 229);
+}
+
+footer-link:visited {
+  color: inherit;
+}
+
+footer img {
+  margin-right: 0.25rem;
+  flex-shrink: 0;
+}
+
+footer p {
+  white-space: nowrap;
+}
